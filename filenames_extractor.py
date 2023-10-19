@@ -124,24 +124,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-"""
-Algorithm: How it works?
-
-Take a directory
-create and open a text file (to write data)
-loop through every folder, subfolder and file in the 
-    directory given using `os.walk()`
-write folder name in the file
-loop through each file and write its name
-
-
----------------------------
-TODO Add more features:
-    Feature: Time it took to extract data
-    Feature: How much folders and files extracted
-    Feature: Name of the .txt file in which data is extracted
-    Feature: Size of that .txt file
-    Feature: 
-
-"""
